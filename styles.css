@@ -1,0 +1,29 @@
+.header, .footer, .search-buttons{
+  overflow: auto;
+}
+
+.main {
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.search-form {
+  margin-top: 25px;
+}
+
+.left-header, .left-footer {
+  float: left;
+}
+
+.right-header, .right-footer {
+  float: right;
+}
+
+#searchbox {
+  width: 400px;
+}
+
+.search-buttons {
+  margin-top: 15px;
+}

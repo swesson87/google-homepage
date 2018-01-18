@@ -2,36 +2,54 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link href="styles.css" type="text/css" rel="stylesheet">
     <title>Google</title>
   </head>
 
   <body>
 
     <!-- Header -->
-    <a href="#">About</a>
-    <a href="#">Store</a>
-    <a href="#">Gmail</a>
-    <a href="#">Images</a>
-    <button type="buton">Sign In</button>
-    <br>
+    <div class="header">
+      <div class="left-header">
+        <a href="#">About</a>
+        <a href="#">Store</a>
+      </div>
+      <div class="right-header">
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <button type="buton">Sign In</button>
+      </div>
+    </div>
 
+    <div class="main">
     <!-- Google logo image -->
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
 
-    <!-- Search box and buttons -->
-    <form action="#">
-      <input type="text" name="searchbox">
-      <input type="submit" value="Google Search">
-      <input type="submit" value="I'm Feeling Lucky">
-    </form>
+      <!-- Search box and buttons -->
+      <div class="search-form">
+        <form action="#">
+          <input type="text" name="searchbox" id="searchbox"><br>
+          <div class="search-buttons">
+            <input type="submit" value="Google Search">
+            <input type="submit" value="I'm Feeling Lucky">
+          </div>
+        </form>
+      </div>
+    </div>
     <br>
 
     <!-- Footer -->
-    <a href="#">Advertising</a>
-    <a href="#">Business</a>
-    <a href="#">Privacy</a>
-    <a href="#">Terms</a>
-    <a href="#">Settings</a>
+    <div class="footer">
+      <div class="left-footer">
+        <a href="#">Advertising</a>
+        <a href="#">Business</a>
+      </div>
+      <div class="right-footer">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Settings</a>
+      </div>
+    </div>
   </body>
 
 </html>
